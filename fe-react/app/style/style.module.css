@@ -1,0 +1,217 @@
+.invoiceCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #3C3D37;
+}
+
+.searchForm{    
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+.invoiceContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px; /* Optional: Adds spacing between grid items */
+    padding: 10px; /* Optional: Adds padding around the grid */
+    box-sizing: border-box; /* Ensures padding is included in element's width/height */
+}
+
+.paginationContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+button.active{
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.invoiceForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
+    max-width: 700px;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top:100px;
+    background-color: #3C3D37;
+    position: relative;
+}
+
+.invoiceForm input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #ECDFCC;
+    color: #000;
+}
+
+.invoiceForm button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.invoiceForm button:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+.invoiceForm select{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.invoiceForm input[type="date"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #ECDFCC;
+    color: #000;
+}
+
+/* .invoiceForm input[type="file"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #ECDFCC;
+    color: #000;
+    
+} */
+
+.invoiceForm textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: #ECDFCC;
+    color: #000;
+    border-radius: 5px;
+}
+
+
+.modalPopup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    color: black;
+}
+
+.itemContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.suggestions{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    top: 480px;
+    left: 30px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #3C3D37;
+}
+
+.graphcontainer{
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #3C3D37;
+}
+
+.graphcontainer h2{
+    color: white;
+}
+
+.graphcontainer button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+.graphcontainer button:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+.graphcontainer button.active{
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.graphcontainer #chart{
+    border: 1px solid #000;
+}

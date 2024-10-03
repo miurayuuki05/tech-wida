@@ -1,0 +1,58 @@
+[
+    {
+        "item_name": "Widget A",
+        "item_stock": 50,
+        "item_price": 19.99,
+        "item_image": "https://example.com/images/widget_a.jpg",
+        "invoice_id": "INV001"
+    },
+    {
+        "item_name": "Widget B",
+        "item_stock": 20,
+        "item_price": 9.99,
+        "item_image": "https://example.com/images/widget_b.jpg",
+        "invoice_id": "INV001"
+    },
+    {
+        "item_name": "Gadget C",
+        "item_stock": 15,
+        "item_price": 29.99,
+        "item_image": "https://example.com/images/gadget_c.jpg",
+        "invoice_id": "INV002"
+    },
+    {
+        "item_name": "Gadget D",
+        "item_stock": 10,
+        "item_price": 49.99,
+        "item_image": "https://example.com/images/gadget_d.jpg",
+        "invoice_id": "INV002"
+    },
+    {
+        "item_name": "Tool E",
+        "item_stock": 30,
+        "item_price": 15.99,
+        "item_image": "https://example.com/images/tool_e.jpg",
+        "invoice_id": "INV003"
+    },
+    {
+        "item_name": "Accessory F",
+        "item_stock": 100,
+        "item_price": 5.99,
+        "item_image": "https://example.com/images/accessory_f.jpg",
+        "invoice_id": "INV004"
+    },
+    {
+        "item_name": "Component G",
+        "item_stock": 25,
+        "item_price": 12.49,
+        "item_image": "https://example.com/images/component_g.jpg",
+        "invoice_id": "INV005"
+    },
+    {
+        "item_name": "Component H",
+        "item_stock": 8,
+        "item_price": 25.00,
+        "item_image": "https://example.com/images/component_h.jpg",
+        "invoice_id": "INV005"
+    }
+]
