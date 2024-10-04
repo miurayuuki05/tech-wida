@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application allows users to manage invoices efficiently. It includes features such as adding invoices with product autocomplete, displaying invoices in card format with pagination, and visualizing revenue projections using a time-series graph.
+This application allows users to manage invoices efficiently. It includes features such as adding invoices with product autocomplete, displaying invoices in card format with pagination, and visualizing revenue projections.
 
 ## Features
 
@@ -42,11 +42,9 @@ This application allows users to manage invoices efficiently. It includes featur
 ## Technologies Used
 
 - Frontend: [React](https://reactjs.org/) for building the user interface.
-- State Management: [Redux](https://redux.js.org/) (if applicable).
 - Backend: Node.js with Express.js for handling API requests.
 - Database: [MySQL](https://www.mysql.com/) for storing invoice data.
 - Visualization: [D3.js](https://d3js.org/) for rendering time-series graphs.
-- CSS Framework: [Bootstrap](https://getbootstrap.com/) for responsive design (if used).
 
 ## Getting Started
 
