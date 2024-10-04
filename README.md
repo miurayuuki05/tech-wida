@@ -59,5 +59,13 @@ This application allows users to manage invoices efficiently. It includes featur
 
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
-   cd <repository-folder>
+   git clone https://github.com/miurayuuki05/tech-wida.git
+   cd tech-wida
+2. Run the Be:
+   ```bash
+   cd be
+   npm run dev
+3. Run the Fe:
+   ```bash
+   cd fe-react
+   npm run dev
